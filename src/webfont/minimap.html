@@ -5,22 +5,22 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="specimen_files/easytabs.js" type="text/javascript" charset="utf-8"></script>
-	<link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
-	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+	<script src="specimen_files/jquery.easytabs.min.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="specimen_files/styles.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="minimap.css" type="text/css" charset="utf-8" />
 
 	<style type="text/css">
-					body{
-				font-family: 'minimapregular';
-							}
-		</style>
+		body {
+			font-family: 'minimap';
+			}
+	</style>
 
 	<title>Minimap Regular Specimen</title>
 	
 	
 	<script type="text/javascript" charset="utf-8">
 		$(document).ready(function() {
-			$('#container').easyTabs({defaultContent:1});
+			$('#container').easytabs({defaultContent:1});
 		});
 	</script>
 </head>
@@ -543,7 +543,7 @@
 </code>
 
 	<p>We've already gone ahead and generated the code for you. All you have to do is link to the stylesheet in your HTML, like this:</p>
-	<code>&lt;link rel=&quot;stylesheet&quot; href=&quot;stylesheet.css&quot; type=&quot;text/css&quot; charset=&quot;utf-8&quot; /&gt;</code>
+	<code>&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; type=&quot;text/css&quot; charset=&quot;utf-8&quot; /&gt;</code>
 
 					<h2>3. Modify your own stylesheet</h2>
 					<p>To take advantage of your new fonts, you must tell your stylesheet to use them. Look at the original @font-face declaration above and find the property called "font-family." The name linked there will be what you use to reference the font. Prepend that webfont name to the font stack in the "font-family" property, inside the selector you want to change. For example:</p>

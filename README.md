@@ -12,7 +12,7 @@ Useful for screenshots, plugins, demos, mockups or such like:
 
 ## Usage
 
-Minimap was originally designed to be installed on your computer, bit I've now added a web font, so you can use it in web pages as well.
+Install the .ttf file on your computer, or copy the stylesheet and web fonts to your web project.
 
 ## License
 
